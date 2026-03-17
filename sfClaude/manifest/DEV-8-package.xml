@@ -20,5 +20,9 @@
         <members>Event__c.Is_Public__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Event__c.Primary_Organizer_Required</members>
+        <name>ValidationRule</name>
+    </types>
     <version>66.0</version>
 </Package>

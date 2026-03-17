@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Organizer_Required</fullName>
+    <active>true</active>
+    <description>Enforces that Primary Organiser is always populated on an Event. This validation replaces the metadata required=true setting, which cannot be used on User lookups due to a Salesforce platform restriction on delete constraints.</description>
+    <errorConditionFormula>ISBLANK(Primary_Organizer__c)</errorConditionFormula>
+    <errorMessage>Primary Organiser is required. Please select the team member responsible for this event.</errorMessage>
+</ValidationRule>

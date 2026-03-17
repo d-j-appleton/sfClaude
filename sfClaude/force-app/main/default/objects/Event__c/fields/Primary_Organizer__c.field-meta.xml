@@ -6,7 +6,7 @@
     <referenceTo>User</referenceTo>
     <relationshipLabel>Organised Events</relationshipLabel>
     <relationshipName>Organised_Events</relationshipName>
-    <required>true</required>
-    <description>The internal Salesforce user responsible for organising and delivering this event. Used for approval routing, task assignment, and event ownership reporting.</description>
-    <inlineHelpText>Select the team member who is the primary organiser for this event. They will be accountable for all event logistics.</inlineHelpText>
+    <required>false</required>
+    <description>The internal Salesforce user responsible for organising and delivering this event. Used for approval routing, task assignment, and event ownership reporting. Required via validation rule (Salesforce does not support delete constraints on User lookups, so required=false is set in metadata).</description>
+    <inlineHelpText>Select the team member who is the primary organiser for this event. They will be accountable for all event logistics. This field is mandatory.</inlineHelpText>
 </CustomField>
