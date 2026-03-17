@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event__c.End_After_Start</members>
+        <members>Event__c.No_Revert_From_Terminal_Status</members>
+        <members>Event__c.Target_Amount_Positive</members>
+        <members>Venue__c.Capacity_At_Least_One</members>
+        <members>Event_Registration__c.No_Registration_On_Cancelled_Event</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>66.0</version>
+</Package>

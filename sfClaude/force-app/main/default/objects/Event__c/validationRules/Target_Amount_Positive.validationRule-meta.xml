@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Amount_Positive</fullName>
+    <active>true</active>
+    <description>Prevents saving an Event with a negative Target Amount. A fundraising target must be zero or a positive value.</description>
+    <errorConditionFormula>Target_Amount__c &lt; 0</errorConditionFormula>
+    <errorDisplayField>Target_Amount__c</errorDisplayField>
+    <errorMessage>Target Amount must be zero or greater.</errorMessage>
+</ValidationRule>

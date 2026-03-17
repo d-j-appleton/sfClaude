@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Registration_On_Cancelled_Event</fullName>
+    <active>true</active>
+    <description>Prevents creating or updating a Registration with status Registered against an Event that has been Cancelled. Cancelled events should not accept new active registrations.</description>
+    <errorConditionFormula>ISPICKVAL(Event__r.Status__c, "Cancelled") &amp;&amp;
+ISPICKVAL(Registration_Status__c, "Registered")</errorConditionFormula>
+    <errorDisplayField>Registration_Status__c</errorDisplayField>
+    <errorMessage>Cannot create a Registered record for a Cancelled event.</errorMessage>
+</ValidationRule>

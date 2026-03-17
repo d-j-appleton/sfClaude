@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Revert_From_Terminal_Status</fullName>
+    <active>true</active>
+    <description>Prevents reverting an Event Status back to Draft once it has reached a terminal state (Completed or Archived). Terminal statuses represent a closed lifecycle and should not be reversed.</description>
+    <errorConditionFormula>ISPICKVAL(Status__c, "Draft") &amp;&amp; (
+  ISPICKVAL(PRIORVALUE(Status__c), "Completed") ||
+  ISPICKVAL(PRIORVALUE(Status__c), "Archived")
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Status cannot be changed back from Completed or Archived.</errorMessage>
+</ValidationRule>
