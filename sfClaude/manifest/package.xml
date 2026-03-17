@@ -25,12 +25,84 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>Event__c.Event_Compact_Layout</members>
+        <members>Event_Registration__c.Registration_Compact_Layout</members>
+        <members>Venue__c.Venue_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Venue__c.Street__c</members>
+        <members>Venue__c.City__c</members>
+        <members>Venue__c.State__c</members>
+        <members>Venue__c.PostalCode__c</members>
+        <members>Venue__c.Country__c</members>
+        <members>Venue__c.Capacity__c</members>
+        <members>Venue__c.Indoor_Outdoor__c</members>
+        <members>Venue__c.Accessibility_Notes__c</members>
+        <members>Event__c.Event_Type__c</members>
+        <members>Event__c.Start_DateTime__c</members>
+        <members>Event__c.End_DateTime__c</members>
+        <members>Event__c.Status__c</members>
+        <members>Event__c.Risk_Level__c</members>
+        <members>Event__c.Target_Amount__c</members>
+        <members>Event__c.Expected_Attendees__c</members>
+        <members>Event__c.Total_Donations__c</members>
+        <members>Event__c.Venue__c</members>
+        <members>Event__c.Primary_Organizer__c</members>
+        <members>Event__c.Sponsored_By__c</members>
+        <members>Event__c.Description__c</members>
+        <members>Event__c.Is_Public__c</members>
+        <members>Event__c.Registered_Count__c</members>
+        <members>Event__c.Actual_Attendees__c</members>
+        <members>Event_Ticket_Type__c.Event__c</members>
+        <members>Event_Ticket_Type__c.Ticket_Type__c</members>
+        <members>Event_Ticket_Type__c.Price__c</members>
+        <members>Event_Ticket_Type__c.Capacity__c</members>
+        <members>Event_Ticket_Type__c.Is_Active__c</members>
+        <members>Event_Registration__c.Event__c</members>
+        <members>Event_Registration__c.Contact__c</members>
+        <members>Event_Registration__c.Registration_Date__c</members>
+        <members>Event_Registration__c.Registration_Status__c</members>
+        <members>Event_Registration__c.Registration_Source__c</members>
+        <members>Event_Registration__c.Ticket_Type_Record__c</members>
+        <members>Event_Registration__c.Ticket_Price__c</members>
+        <members>Event_Registration__c.Special_Requirements__c</members>
+        <members>Event_Registration__c.Check_In_Time__c</members>
+        <members>Event_Registration__c.Consent_to_Contact__c</members>
+        <members>Event_Session__c.Event__c</members>
+        <members>Event_Session__c.Start_DateTime__c</members>
+        <members>Event_Session__c.End_DateTime__c</members>
+        <members>Event_Session__c.Speaker__c</members>
+        <members>Event_Session__c.Capacity__c</members>
+        <members>Event_Session__c.Location_Detail__c</members>
+        <members>Opportunity.Donation_Type__c</members>
+        <members>Opportunity.Event__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Venue__c</members>
+        <members>Event__c</members>
+        <members>Event_Ticket_Type__c</members>
+        <members>Event_Registration__c</members>
+        <members>Event_Session__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>*</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Event__c.Primary_Organizer_Required</members>
+        <members>Event__c.End_After_Start</members>
+        <members>Event__c.No_Revert_From_Terminal_Status</members>
+        <members>Event__c.Target_Amount_Positive</members>
+        <members>Venue__c.Capacity_At_Least_One</members>
+        <members>Event_Registration__c.No_Registration_On_Cancelled_Event</members>
+        <name>ValidationRule</name>
     </types>
     <version>66.0</version>
 </Package>
