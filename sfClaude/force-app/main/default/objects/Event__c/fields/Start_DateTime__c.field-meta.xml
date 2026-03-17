@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_DateTime__c</fullName>
+    <label>Start Date &amp; Time</label>
+    <type>DateTime</type>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <description>The date and time the event begins. Used by the events calendar LWC, registration open/close automation, reminder flows, and lifecycle management processes.</description>
+    <inlineHelpText>Enter the date and time the event starts. This is used to display the event on the calendar and trigger automated reminders.</inlineHelpText>
+</CustomField>

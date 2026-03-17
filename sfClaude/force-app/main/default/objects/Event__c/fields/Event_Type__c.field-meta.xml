@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <label>Event Type</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <description>Classifies the format of the charity event. Used to filter event listings, drive reporting segmentation, and tailor communications templates to the event format.</description>
+    <inlineHelpText>Select the format that best describes this event. Choose Other if no standard type applies.</inlineHelpText>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gala</fullName>
+                <default>false</default>
+                <label>Gala</label>
+            </value>
+            <value>
+                <fullName>Fun Run</fullName>
+                <default>false</default>
+                <label>Fun Run</label>
+            </value>
+            <value>
+                <fullName>Online Webinar</fullName>
+                <default>false</default>
+                <label>Online Webinar</label>
+            </value>
+            <value>
+                <fullName>Community Day</fullName>
+                <default>false</default>
+                <label>Community Day</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

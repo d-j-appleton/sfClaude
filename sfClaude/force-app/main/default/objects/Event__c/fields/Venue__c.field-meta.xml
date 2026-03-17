@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venue__c</fullName>
+    <label>Venue</label>
+    <type>Lookup</type>
+    <referenceTo>Venue__c</referenceTo>
+    <relationshipLabel>Events</relationshipLabel>
+    <relationshipName>Events</relationshipName>
+    <required>false</required>
+    <description>Lookup to the Venue__c record where the event will be held. Optional to allow virtual events with no physical venue. Used by validation rules to check that Expected_Attendees__c does not exceed the venue Capacity__c.</description>
+    <inlineHelpText>Select the venue for this event. Leave blank for virtual or online-only events.</inlineHelpText>
+</CustomField>

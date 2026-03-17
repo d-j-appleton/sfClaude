@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsored_By__c</fullName>
+    <label>Sponsored By</label>
+    <type>Lookup</type>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Sponsored Events</relationshipLabel>
+    <relationshipName>Sponsored_Events</relationshipName>
+    <required>false</required>
+    <description>Lookup to the Account record of the primary corporate sponsor for this event. Used in sponsorship reporting and acknowledgement communications.</description>
+    <inlineHelpText>Select the corporate sponsor for this event if applicable. Leave blank if the event has no primary sponsor.</inlineHelpText>
+</CustomField>

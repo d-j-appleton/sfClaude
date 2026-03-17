@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>End_DateTime__c</fullName>
+    <label>End Date &amp; Time</label>
+    <type>DateTime</type>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <description>The date and time the event ends. Used alongside Start_DateTime__c by the calendar LWC for event block rendering, and by validation rules to ensure end is after start.</description>
+    <inlineHelpText>Enter the date and time the event ends. Must be after the Start Date &amp; Time.</inlineHelpText>
+</CustomField>
