@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    DEV-16: Field History Tracking verification manifest.
+    DEV-16: Field History Tracking
 
-    The trackHistory settings for all fields below were implemented
-    as part of DEV-8 (Event__c) and DEV-10 (Event_Registration__c).
+    No separate deployment required for this ticket.
 
-    Deploy this manifest after DEV-8 and DEV-10 to verify history
-    tracking is active on all required fields.
+    All trackHistory settings are delivered by existing tickets:
+      - DEV-8 package.xml: Event__c object (enableHistory) + fields
+        Status__c, Start_DateTime__c, End_DateTime__c, Target_Amount__c, Risk_Level__c
+      - DEV-10 package.xml: Event_Registration__c object (enableHistory) + fields
+        Registration_Status__c, Ticket_Price__c
+
+    Deploy DEV-8 and DEV-10 to activate field history tracking on both objects.
 -->
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>Event__c.Status__c</members>
-        <members>Event__c.Start_DateTime__c</members>
-        <members>Event__c.End_DateTime__c</members>
-        <members>Event__c.Target_Amount__c</members>
-        <members>Event__c.Risk_Level__c</members>
-        <members>Event_Registration__c.Registration_Status__c</members>
-        <members>Event_Registration__c.Ticket_Price__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Event__c</members>
-        <members>Event_Registration__c</members>
-        <name>CustomObject</name>
-    </types>
     <version>66.0</version>
 </Package>
