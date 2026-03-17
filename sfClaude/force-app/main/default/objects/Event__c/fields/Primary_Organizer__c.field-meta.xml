@@ -7,6 +7,7 @@
     <relationshipLabel>Organised Events</relationshipLabel>
     <relationshipName>Organised_Events</relationshipName>
     <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
     <description>The internal Salesforce user responsible for organising and delivering this event. Used for approval routing, task assignment, and event ownership reporting.</description>
     <inlineHelpText>Select the team member who is the primary organiser for this event. They will be accountable for all event logistics.</inlineHelpText>
 </CustomField>
