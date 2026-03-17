@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capacity__c</fullName>
+    <label>Capacity</label>
+    <type>Number</type>
+    <precision>18</precision>
+    <scale>0</scale>
+    <required>false</required>
+    <description>An optional cap on the number of registrations allowed for this specific ticket category. When set, automation in Epic 4 will prevent registrations that would exceed this limit. Leave blank for no per-type cap.</description>
+    <inlineHelpText>Optionally set the maximum number of registrations for this ticket type. Leave blank if there is no limit for this category.</inlineHelpText>
+</CustomField>
