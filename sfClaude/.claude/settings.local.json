@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp:*)",
+      "mcp__gdrive__search",
+      "WebFetch(domain:github.com)",
+      "Bash(npx --version)",
+      "Bash(npm install:*)",
+      "Bash(npx --no-install which google-drive-mcp)",
+      "Read(//c/nvm4w/nodejs//**)",
+      "Bash(npx gws:*)",
+      "Bash(gws --version)",
+      "Bash(gws generate-skills:*)",
+      "Bash(gws auth:*)",
+      "Bash(mkdir -p /c/Users/djapp/.config/gws)",
+      "Bash(cp /c/Users/djapp/.config/google-drive-mcp/gcp-oauth.keys.json /c/Users/djapp/.config/gws/client_secret.json)",
+      "Bash(gws drive:*)",
+      "Bash(node scripts/gdrive-sync.js)",
+      "Bash(bash scripts/gdrive-sync.sh)",
+      "Bash(winget install:*)",
+      "Bash(node -e \"const jq = require\\(''''node-jq''''\\); console.log\\(''''ok''''\\)\")",
+      "Bash(rm /c/Work/Claude/sfClaude/sfClaude/scripts/gdrive-sync.sh)",
+      "Bash(rm -rf /c/Work/Claude/sfClaude/sfClaude/scripts/gdrive-cache)",
+      "Bash(rm /c/Work/Claude/sfClaude/sfClaude/scripts/High_Level_Design_Document__sfClaude_.md /c/Work/Claude/sfClaude/sfClaude/scripts/https___copilot.txt.md)",
+      "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
+      "mcp__claude_ai_Atlassian__getVisibleJiraProjects",
+      "mcp__claude_ai_Atlassian__createJiraIssue",
+      "Bash(node -e \":*)",
+      "Bash(node --input-type=module -e \":*)",
+      "Bash(1 ls:*)",
+      "Bash(tasklist /FI 'IMAGENAME eq node.exe' /V)",
+      "Bash(tasklist /FI 'IMAGENAME eq node.exe' /FO CSV)",
+      "Bash(wmic process:*)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Select-Object Id, StartTime | Format-Table\")",
+      "Bash(powershell -Command \"Stop-Process -Id 27280 -Force\")",
+      "Bash(GOOGLE_DRIVE_OAUTH_CREDENTIALS=\"C:/Users/djapp/.config/google-drive-mcp/gcp-oauth.keys.json\" printf '{\"\"\"\"jsonrpc\"\"\"\":\"\"\"\"2.0\"\"\"\",\"\"\"\"id\"\"\"\":1,\"\"\"\"method\"\"\"\":\"\"\"\"initialize\"\"\"\",\"\"\"\"params\"\"\"\":{\"\"\"\"protocolVersion\"\"\"\":\"\"\"\"2024-11-05\"\"\"\",\"\"\"\"capabilities\"\"\"\":{},\"\"\"\"clientInfo\"\"\"\":{\"\"\"\"name\"\"\"\":\"\"\"\"test\"\"\"\",\"\"\"\"version\"\"\"\":\"\"\"\"1\"\"\"\"}}}\\\\n{\"\"\"\"jsonrpc\"\"\"\":\"\"\"\"2.0\"\"\"\",\"\"\"\"id\"\"\"\":2,\"\"\"\"method\"\"\"\":\"\"\"\"tools/call\"\"\"\",\"\"\"\"params\"\"\"\":{\"\"\"\"name\"\"\"\":\"\"\"\"search\"\"\"\",\"\"\"\"arguments\"\"\"\":{\"\"\"\"query\"\"\"\":\"\"\"\"test\"\"\"\"}}}\\\\n')",
+      "Bash(timeout 10 node dist/index.js)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

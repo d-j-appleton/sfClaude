@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "gws-docs-write": {
+      "source": "googleworkspace/cli",
+      "sourceType": "github",
+      "computedHash": "97f9c54cae3fa278db745834154b2abe107f2bd6d4ba6243575747c669cc8ff5"
+    },
+    "gws-drive-upload": {
+      "source": "googleworkspace/cli",
+      "sourceType": "github",
+      "computedHash": "76949dd5079c3160c04ac825a4f7c0082f3a1f17fc59fbb7e3a80c6f2c2ea0df"
+    },
+    "jira-cli": {
+      "source": "code-and-sorts/awesome-copilot-agents",
+      "sourceType": "github",
+      "computedHash": "625fe55d2e7de66a90f9a60bfd571960b7130d20d0feb543b20bb58c1e2a0e91"
+    }
+  }
+}

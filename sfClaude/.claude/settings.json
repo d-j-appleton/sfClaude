@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gdrive__createGoogleDoc",
+      "mcp__gdrive__applyParagraphStyle",
+      "mcp__gdrive__applyTextStyle",
+      "mcp__gdrive__insertTable",
+      "mcp__gdrive__getGoogleDocContent",
+      "mcp__gdrive__editTableCell",
+      "mcp__claude_ai_Atlassian__searchJiraIssuesUsingJql",
+      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
+      "mcp__claude_ai_Atlassian__transitionJiraIssue",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\djapp\\.claude\\projects\\c--Work-Claude-sfClaude-sfClaude\\memory"
+    ]
+  }
+}

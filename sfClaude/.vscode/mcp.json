@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "google-drive-write": {
+            "type": "stdio",
+            "command": "C:\\nvm4w\\nodejs\\node",
+            "args": ["C:\\nvm4w\\nodejs\\node_modules\\@piotr-agier\\google-drive-mcp\\dist\\index.js"],
+            "env": {
+                "GOOGLE_DRIVE_OAUTH_CREDENTIALS": "C:\\Users\\djapp\\.config\\google-drive-mcp\\gcp-oauth.keys.json"
+            }
+        }
+    }
+}
