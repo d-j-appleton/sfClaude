@@ -7,4 +7,6 @@
     <required>false</required>
     <unique>false</unique>
     <defaultValue>&quot;United Kingdom&quot;</defaultValue>
+    <description>The country where the venue is located. Defaults to United Kingdom to reflect the primary operating territory of the charity.</description>
+    <inlineHelpText>Enter the country name. Defaults to United Kingdom.</inlineHelpText>
 </CustomField>

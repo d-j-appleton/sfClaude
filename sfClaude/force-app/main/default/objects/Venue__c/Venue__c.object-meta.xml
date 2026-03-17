@@ -16,4 +16,5 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <sharingModel>ReadWrite</sharingModel>
+    <description>Represents a physical or virtual location where charity events are hosted. Stores address, capacity, and accessibility information for use when planning and publishing events.</description>
 </CustomObject>

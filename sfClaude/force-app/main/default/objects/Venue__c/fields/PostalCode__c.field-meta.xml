@@ -6,4 +6,6 @@
     <length>20</length>
     <required>false</required>
     <unique>false</unique>
+    <description>The postal or zip code of the venue. Used for address validation, mapping integrations, and attendee directions.</description>
+    <inlineHelpText>Enter the full postcode (e.g. SW1A 1AA).</inlineHelpText>
 </CustomField>

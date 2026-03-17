@@ -4,4 +4,6 @@
     <label>Street</label>
     <type>TextArea</type>
     <required>false</required>
+    <description>The street address of the venue. Used for directions, communications, and printed event materials.</description>
+    <inlineHelpText>Enter the full street address including building name or number.</inlineHelpText>
 </CustomField>

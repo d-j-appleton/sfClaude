@@ -4,6 +4,8 @@
     <label>Indoor / Outdoor</label>
     <type>Picklist</type>
     <required>true</required>
+    <description>Classifies the venue environment as indoor, outdoor, hybrid (mixed indoor/outdoor), or virtual. Used to set attendee expectations and inform event logistics planning.</description>
+    <inlineHelpText>Select the environment type: Indoor (fully enclosed), Outdoor (open air), Hybrid (mixed), or Virtual (online only).</inlineHelpText>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>

@@ -7,4 +7,6 @@
     <scale>0</scale>
     <required>true</required>
     <unique>false</unique>
+    <description>The maximum number of attendees the venue can accommodate. Used by capacity validation rules on Event__c to prevent over-registration.</description>
+    <inlineHelpText>Enter the maximum number of people this venue can hold. This is used to enforce registration limits on events.</inlineHelpText>
 </CustomField>

@@ -6,4 +6,6 @@
     <length>80</length>
     <required>false</required>
     <unique>false</unique>
+    <description>The city or town where the venue is located. Used for event listings and attendee communications.</description>
+    <inlineHelpText>Enter the city or town name.</inlineHelpText>
 </CustomField>
