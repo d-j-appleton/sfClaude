@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <label>Event</label>
+    <type>Lookup</type>
+    <referenceTo>Event__c</referenceTo>
+    <relationshipLabel>Donations</relationshipLabel>
+    <relationshipName>Donations</relationshipName>
+    <required>false</required>
+    <description>Lookup to the Event__c record this donation or income is attributed to. This must be a Lookup (not Master-Detail) as Salesforce does not permit Master-Detail on the standard Opportunity object. As a result, Event__c.Total_Donations__c cannot be a Roll-Up Summary and is instead maintained by a Flow in Epic 4.</description>
+    <inlineHelpText>Link this donation to a specific charity event for income attribution and fundraising performance reporting. Leave blank for donations not associated with an event.</inlineHelpText>
+</CustomField>
