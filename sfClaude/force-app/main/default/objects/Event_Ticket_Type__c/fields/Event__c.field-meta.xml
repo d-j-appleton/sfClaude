@@ -8,7 +8,6 @@
     <relationshipName>Ticket_Types</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
-    <required>true</required>
     <description>Master-Detail relationship to the parent Event__c record. Enforces cascade delete — all Ticket Types are deleted when the parent Event is deleted. This relationship also sets the OWD to Controlled by Parent.</description>
     <inlineHelpText>The event this ticket type belongs to. This field is set automatically and cannot be changed after creation.</inlineHelpText>
 </CustomField>
