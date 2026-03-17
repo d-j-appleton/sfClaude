@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price__c</fullName>
+    <label>Price</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+    <required>false</required>
+    <defaultValue>0</defaultValue>
+    <description>The price in GBP for this ticket category. Defaults to 0.00 to support free events. Copied to Event_Registration__c.Ticket_Price__c by a Before Save Flow in Epic 4 at the point of registration.</description>
+    <inlineHelpText>Enter the ticket price in GBP. Set to 0.00 for free tickets. This price will be copied to each registration at the time of booking.</inlineHelpText>
+</CustomField>

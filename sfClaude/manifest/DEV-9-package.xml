@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event_Ticket_Type__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Event_Ticket_Type__c.Event__c</members>
+        <members>Event_Ticket_Type__c.Ticket_Type__c</members>
+        <members>Event_Ticket_Type__c.Price__c</members>
+        <members>Event_Ticket_Type__c.Capacity__c</members>
+        <members>Event_Ticket_Type__c.Is_Active__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>66.0</version>
+</Package>
