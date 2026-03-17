@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Detail__c</fullName>
+    <label>Location Detail</label>
+    <type>Text</type>
+    <length>255</length>
+    <required>false</required>
+    <description>A specific room, area, or sub-location within the event venue where this session takes place (e.g. "Room B, Ground Floor", "Main Stage", "Breakout Suite 3"). Supplements the venue-level address held on the parent Event__c record.</description>
+    <inlineHelpText>Enter the specific location within the venue for this session, e.g. "Room B, Ground Floor" or "Main Stage".</inlineHelpText>
+</CustomField>

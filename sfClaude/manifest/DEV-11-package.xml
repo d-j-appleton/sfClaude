@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event_Session__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Event_Session__c.Event__c</members>
+        <members>Event_Session__c.Start_DateTime__c</members>
+        <members>Event_Session__c.End_DateTime__c</members>
+        <members>Event_Session__c.Speaker__c</members>
+        <members>Event_Session__c.Capacity__c</members>
+        <members>Event_Session__c.Location_Detail__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>66.0</version>
+</Package>
