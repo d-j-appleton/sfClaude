@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event__c</fullName>
+    <label>Event</label>
+    <type>MasterDetail</type>
+    <referenceTo>Event__c</referenceTo>
+    <relationshipLabel>Sessions</relationshipLabel>
+    <relationshipName>Sessions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <required>true</required>
+    <description>Master-Detail relationship to the parent Event__c record. Cascade delete removes all sessions when the parent event is deleted. Sets sharing to Controlled by Parent.</description>
+    <inlineHelpText>The event this session belongs to. Set automatically and cannot be changed after creation.</inlineHelpText>
+</CustomField>

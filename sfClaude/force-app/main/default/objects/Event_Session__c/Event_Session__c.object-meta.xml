@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Event Session</label>
+    <pluralLabel>Event Sessions</pluralLabel>
+    <nameField>
+        <label>Session Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Represents a distinct sub-session within a multi-session charity event (e.g. Dinner, Auction, Keynote). Optional — only populated for complex events that require individual session tracking. Related list appears on the Event record page (configured in Epic 6). Sharing is Controlled by Parent via Master-Detail to Event__c.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

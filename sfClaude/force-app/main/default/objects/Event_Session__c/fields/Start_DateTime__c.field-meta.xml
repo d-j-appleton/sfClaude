@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_DateTime__c</fullName>
+    <label>Start Date &amp; Time</label>
+    <type>DateTime</type>
+    <required>true</required>
+    <description>The date and time this session begins. Must fall within the parent event's Start_DateTime__c and End_DateTime__c window. Used for session scheduling and printed event programmes.</description>
+    <inlineHelpText>Enter the start date and time for this session. Must be within the overall event dates.</inlineHelpText>
+</CustomField>

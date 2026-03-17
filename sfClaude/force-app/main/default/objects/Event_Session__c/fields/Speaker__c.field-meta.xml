@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker__c</fullName>
+    <label>Speaker</label>
+    <type>Lookup</type>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Event Sessions (Speaker)</relationshipLabel>
+    <relationshipName>Event_Sessions_Speaker</relationshipName>
+    <required>false</required>
+    <description>The Contact record of the speaker or facilitator for this session. Optional — leave blank for sessions with no named speaker. Used in event programmes and speaker acknowledgement communications.</description>
+    <inlineHelpText>Optionally select the speaker or facilitator for this session. Leave blank if there is no named speaker.</inlineHelpText>
+</CustomField>
