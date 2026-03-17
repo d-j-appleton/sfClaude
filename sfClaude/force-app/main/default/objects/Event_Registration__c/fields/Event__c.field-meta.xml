@@ -8,7 +8,6 @@
     <relationshipName>Registrations</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
-    <required>true</required>
     <description>Master-Detail relationship to the parent Event__c record. Cascade delete removes all registrations when an event is deleted. Drives roll-up summary fields Registered_Count__c and Actual_Attendees__c on Event__c (created in DEV-13).</description>
     <inlineHelpText>The event this registration belongs to. Set automatically and cannot be changed after creation.</inlineHelpText>
 </CustomField>
