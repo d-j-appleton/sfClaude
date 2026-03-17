@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Event Registration</label>
+    <pluralLabel>Event Registrations</pluralLabel>
+    <nameField>
+        <label>Registration Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>REG-{000000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Records an individual attendee registration for a charity event. Links a Contact to an Event__c with their chosen ticket type, registration status, and special requirements. Auto-numbered for unique reference. Sharing is Controlled by Parent via Master-Detail to Event__c.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

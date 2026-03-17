@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Requirements__c</fullName>
+    <label>Special Requirements</label>
+    <type>LongTextArea</type>
+    <length>32768</length>
+    <visibleLines>4</visibleLines>
+    <required>false</required>
+    <description>Free-text field to capture any special requirements for the attendee, such as dietary needs, accessibility requirements, or other accommodations. Reviewed by event organisers during logistics planning.</description>
+    <inlineHelpText>Enter any special requirements for this attendee, e.g. dietary needs, wheelchair access, or other accommodations needed on the day.</inlineHelpText>
+</CustomField>

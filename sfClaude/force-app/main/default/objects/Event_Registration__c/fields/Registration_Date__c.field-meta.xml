@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Date__c</fullName>
+    <label>Registration Date</label>
+    <type>Date</type>
+    <required>false</required>
+    <description>The date the registration was created. Populated automatically by a Before Save Flow in Epic 4 using TODAY() at the point of record creation. Should not be set manually.</description>
+    <inlineHelpText>The date this registration was submitted. Set automatically — do not edit manually.</inlineHelpText>
+</CustomField>

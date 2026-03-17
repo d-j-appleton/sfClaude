@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Source__c</fullName>
+    <label>Registration Source</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <description>Records the channel through which this registration was submitted. Used for channel attribution reporting and to support GDPR consent tracking by source. Defaults to Internal for registrations created directly in Salesforce.</description>
+    <inlineHelpText>Select how this registration was received. Internal = entered by staff; Website = self-service online; Phone = taken over the phone; Email = submitted via email; Partner = through a third-party organisation.</inlineHelpText>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal</fullName>
+                <default>true</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

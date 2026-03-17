@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_Type_Record__c</fullName>
+    <label>Ticket Type</label>
+    <type>Lookup</type>
+    <referenceTo>Event_Ticket_Type__c</referenceTo>
+    <relationshipLabel>Registrations</relationshipLabel>
+    <relationshipName>Registrations</relationshipName>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>The Event_Ticket_Type__c record selected for this registration. Drives the Ticket_Price__c population via a Before Save Flow in Epic 4. Delete constraint set to Restrict — a Ticket Type cannot be deleted while registrations reference it.</description>
+    <inlineHelpText>Select the ticket category for this registration. The price will be set automatically based on the ticket type selected.</inlineHelpText>
+</CustomField>

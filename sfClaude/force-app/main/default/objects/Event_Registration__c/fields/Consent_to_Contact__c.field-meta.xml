@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consent_to_Contact__c</fullName>
+    <label>Consent to Contact</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Records whether the attendee has given explicit consent to be contacted for future charity communications at the point of registration. Defaults to false in compliance with GDPR opt-in requirements. Must only be set to true based on a clear and affirmative action by the attendee.</description>
+    <inlineHelpText>Tick only if the attendee has explicitly opted in to receive future communications from the charity. Leave unticked if consent was not given or is unclear.</inlineHelpText>
+</CustomField>
