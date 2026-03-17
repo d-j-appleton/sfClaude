@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indoor_Outdoor__c</fullName>
+    <label>Indoor / Outdoor</label>
+    <type>Picklist</type>
+    <required>true</required>
+    <description>Classifies the venue environment as indoor, outdoor, hybrid (mixed indoor/outdoor), or virtual. Used to set attendee expectations and inform event logistics planning.</description>
+    <inlineHelpText>Select the environment type: Indoor (fully enclosed), Outdoor (open air), Hybrid (mixed), or Virtual (online only).</inlineHelpText>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Indoor</fullName>
+                <default>false</default>
+                <label>Indoor</label>
+            </value>
+            <value>
+                <fullName>Outdoor</fullName>
+                <default>false</default>
+                <label>Outdoor</label>
+            </value>
+            <value>
+                <fullName>Hybrid</fullName>
+                <default>false</default>
+                <label>Hybrid</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

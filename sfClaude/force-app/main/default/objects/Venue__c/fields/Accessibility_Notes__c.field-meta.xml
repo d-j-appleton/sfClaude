@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accessibility_Notes__c</fullName>
+    <label>Accessibility Notes</label>
+    <type>LongTextArea</type>
+    <length>32768</length>
+    <visibleLines>5</visibleLines>
+    <required>false</required>
+    <description>Free-text field to capture accessibility information for the venue, such as wheelchair access, hearing loop availability, parking for disabled visitors, and proximity to public transport. Displayed on event listings to support inclusive attendance.</description>
+    <inlineHelpText>Describe any accessibility features or limitations — e.g. step-free access, hearing loop, disabled parking, nearest accessible transport.</inlineHelpText>
+</CustomField>

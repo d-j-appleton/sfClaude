@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country__c</fullName>
+    <label>Country</label>
+    <type>Text</type>
+    <length>80</length>
+    <required>false</required>
+    <unique>false</unique>
+    <defaultValue>&quot;United Kingdom&quot;</defaultValue>
+    <description>The country where the venue is located. Defaults to United Kingdom to reflect the primary operating territory of the charity.</description>
+    <inlineHelpText>Enter the country name. Defaults to United Kingdom.</inlineHelpText>
+</CustomField>

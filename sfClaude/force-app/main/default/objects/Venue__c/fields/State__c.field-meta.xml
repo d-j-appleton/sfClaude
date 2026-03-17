@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <label>State / County</label>
+    <type>Text</type>
+    <length>80</length>
+    <required>false</required>
+    <unique>false</unique>
+    <description>The county, state, or region where the venue is located. Supports both UK county names and international state/region values.</description>
+    <inlineHelpText>Enter the county (UK) or state/region (international).</inlineHelpText>
+</CustomField>
