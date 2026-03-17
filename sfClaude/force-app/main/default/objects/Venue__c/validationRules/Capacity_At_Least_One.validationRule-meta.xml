@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capacity_At_Least_One</fullName>
+    <active>true</active>
+    <description>Prevents saving a Venue with a capacity of zero or less. A functional venue must be able to accommodate at least one person.</description>
+    <errorConditionFormula>Capacity__c &lt; 1</errorConditionFormula>
+    <errorDisplayField>Capacity__c</errorDisplayField>
+    <errorMessage>Venue capacity must be at least 1.</errorMessage>
+</ValidationRule>
