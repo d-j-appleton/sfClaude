@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_In_Time__c</fullName>
+    <label>Check-In Time</label>
+    <type>DateTime</type>
+    <required>false</required>
+    <description>The date and time the attendee physically checked in at the event. Populated on the day of the event by event staff. When populated, a Flow in Epic 4 updates Registration_Status__c to Attended.</description>
+    <inlineHelpText>Record the date and time this attendee checked in at the event. Setting this value will automatically update their status to Attended.</inlineHelpText>
+</CustomField>
