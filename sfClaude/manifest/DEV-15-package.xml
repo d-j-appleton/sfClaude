@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event__c-Event_Compact_Layout</members>
+        <members>Event_Registration__c-Registration_Compact_Layout</members>
+        <members>Venue__c-Venue_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <version>66.0</version>
+</Package>
