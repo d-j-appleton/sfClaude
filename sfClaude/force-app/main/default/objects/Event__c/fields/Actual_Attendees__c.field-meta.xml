@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Attendees__c</fullName>
+    <label>Actual Attendees</label>
+    <type>Summary</type>
+    <summaryForeignKey>Event_Registration__c.Event__c</summaryForeignKey>
+    <summaryOperation>COUNT</summaryOperation>
+    <summaryFilterItems>
+        <field>Event_Registration__c.Registration_Status__c</field>
+        <operation>equals</operation>
+        <value>Attended</value>
+    </summaryFilterItems>
+    <description>Roll-Up Summary COUNT of Event_Registration__c child records where Registration_Status__c equals Attended. Represents confirmed post-event attendance. Only meaningful after the event has taken place and check-ins have been recorded.</description>
+    <inlineHelpText>The number of attendees who were checked in on the day. Populated after the event once registrations are updated to Attended status.</inlineHelpText>
+</CustomField>
