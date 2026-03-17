@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Public__c</fullName>
+    <label>Is Public</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the event is visible on public-facing channels such as the website or Experience Cloud portal. Set to true only after the event has been approved and published. Used by the Events Calendar LWC to filter publicly displayable events.</description>
+    <inlineHelpText>Tick to make this event visible on public channels. Only published and approved events should be marked as public.</inlineHelpText>
+</CustomField>

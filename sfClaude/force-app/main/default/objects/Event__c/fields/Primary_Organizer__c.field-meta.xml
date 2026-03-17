@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Organizer__c</fullName>
+    <label>Primary Organiser</label>
+    <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Organised Events</relationshipLabel>
+    <relationshipName>Organised_Events</relationshipName>
+    <required>true</required>
+    <description>The internal Salesforce user responsible for organising and delivering this event. Used for approval routing, task assignment, and event ownership reporting.</description>
+    <inlineHelpText>Select the team member who is the primary organiser for this event. They will be accountable for all event logistics.</inlineHelpText>
+</CustomField>

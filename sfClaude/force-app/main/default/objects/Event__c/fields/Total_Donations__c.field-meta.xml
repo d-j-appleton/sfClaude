@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Donations__c</fullName>
+    <label>Total Donations</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+    <required>false</required>
+    <description>The running total of all donations linked to this event via the Opportunity object. Maintained by a Record-Triggered Flow on Opportunity (After Save) in Epic 4 — NOT a Roll-Up Summary Field, as the Opportunity→Event__c relationship is a Lookup, not a Master-Detail.</description>
+    <inlineHelpText>The total donations raised for this event. This value is updated automatically — do not edit manually.</inlineHelpText>
+</CustomField>

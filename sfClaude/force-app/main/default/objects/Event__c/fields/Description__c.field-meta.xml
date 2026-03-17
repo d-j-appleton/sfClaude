@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <label>Description</label>
+    <type>LongTextArea</type>
+    <length>32768</length>
+    <visibleLines>5</visibleLines>
+    <required>false</required>
+    <description>A rich-text description of the event for use in public-facing listings, attendee communications, and printed materials. Should include event highlights, agenda summary, and fundraising goals.</description>
+    <inlineHelpText>Provide a full description of the event. This may be displayed to the public on listings and event pages.</inlineHelpText>
+</CustomField>
