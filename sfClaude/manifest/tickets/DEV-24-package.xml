@@ -5,7 +5,7 @@
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>Event_Registration__c.Volunteer_Coordinator_Ticket_Type_Restriction</members>
+        <members>Event_Registration__c.Volunteer_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
     <version>66.0</version>

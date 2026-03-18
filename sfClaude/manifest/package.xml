@@ -93,7 +93,7 @@
         <members>Event__c.Target_Amount_Positive</members>
         <members>Venue__c.Capacity_At_Least_One</members>
         <members>Event_Registration__c.No_Registration_On_Cancelled_Event</members>
-        <members>Event_Registration__c.Volunteer_Coordinator_Ticket_Type_Restriction</members>
+        <members>Event_Registration__c.Volunteer_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
     <version>66.0</version>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Grants Fundraising Officers the ability to manage Opportunity records and update event fundraising targets. Read and edit on Event__c only — no create or delete. Registration data is read-only. Sole source of object and field access — base profile grants none.</description>
+    <description>Grants Fundraising Officers ability to manage Opportunities and update event fundraising targets. Read and edit on Event__c only; no create or delete. Registrations are read-only. Sole source of access; base profile grants none.</description>
     <label>Fundraising Officer Permissions</label>
     <license>Salesforce</license>
     <!-- Object Permissions -->
