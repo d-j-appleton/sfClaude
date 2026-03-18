@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!--
+        Rule: Share_Published_Events
+        Type: Criteria-based sharing rule
+        Rationale: All internal staff should be able to see Published events so they can refer
+        to them, assist with registrations, and answer enquiries. Sharing with the CEO /
+        Executive Director role and subordinates effectively covers all internal users in the
+        role hierarchy (Events Managers, Fundraising Officers, Volunteer Coordinators, Executives).
+
+        Primary Organiser Access (Rule 2):
+        Salesforce criteria-based sharing rules cannot dynamically share a record with the user
+        stored in a lookup field. For this implementation (demo approach), the record Owner is set
+        equal to Primary_Organizer__c on creation, to be enforced by a Before Save Flow in Epic 3.
+        For production use, an Apex trigger should create EventShare records whenever
+        Primary_Organizer__c is populated, granting that user Read/Write access. This is noted
+        as a requirement for the Epic 3 LLD.
+    -->
+    <sharingCriteriaRules>
+        <fullName>Share_Published_Events</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares all Event records with Status__c = Published with all internal users (via CEO / Executive Director role and subordinates). Ensures published events are visible to all staff for reference, registration assistance, and enquiry handling without requiring individual sharing.</description>
+        <label>Share Published Events</label>
+        <sharedTo>
+            <roleAndSubordinates>CEO_Executive_Director</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Published</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>
