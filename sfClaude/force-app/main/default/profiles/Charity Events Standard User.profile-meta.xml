@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <description>Base profile for all charity events system users. Provides login access and tab navigation only. All object, field, and record-level permissions are granted exclusively via persona-specific permission sets in line with Salesforce best practice. A user assigned only this profile with no permission set can log in and see the tab bar but has no access to any object records.</description>
+    <tabVisibilities>
+        <tab>Event__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Event_Registration__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Venue__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Opportunity</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+</Profile>
