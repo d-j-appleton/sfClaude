@@ -67,6 +67,10 @@
         <members>Charity Events Standard User</members>
         <name>Profile</name>
     </types>
+    <types>        
+        <members>Events_Manager_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
     <types>
         <members>CEO_Executive_Director</members>
         <members>Executive_Trustee</members>
