@@ -124,11 +124,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Event_Registration__c.Event__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Event_Registration__c.Registration_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -143,15 +138,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <!-- Field Permissions — Event_Ticket_Type__c -->
-    <!-- Required field (Ticket_Type__c) omitted -->
+    <!-- Required fields (Ticket_Type__c) and master-detail (Event__c) omitted -->
     <fieldPermissions>
         <editable>true</editable>
         <field>Event_Ticket_Type__c.Capacity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event_Ticket_Type__c.Event__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
