@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-27: Persona Access Matrix Test Setup
+
+    This ticket does not deploy any Salesforce metadata.
+    Verification is performed by running the anonymous Apex script:
+
+        sf apex run --file scripts/apex/DEV-27-setup-test-users.apex
+
+    The script creates four test users (Events Manager, Fundraising Officer,
+    Volunteer Coordinator, Executive / Trustee), assigns the correct role and
+    permission set to each, and seeds a Venue, two Events (one Draft, one
+    Published), two Ticket Types, and two Event Registrations for manual
+    access-matrix verification.
+
+    All deployable metadata for this release is covered by the primary
+    manifest/package.xml.
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>66.0</version>
+</Package>
