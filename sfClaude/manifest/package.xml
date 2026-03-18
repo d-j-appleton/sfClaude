@@ -69,6 +69,7 @@
     </types>
     <types>        
         <members>Events_Manager_Permissions</members>
+        <members>Fundraising_Officer_Permissions</members>
         <name>PermissionSet</name>
     </types>
     <types>
