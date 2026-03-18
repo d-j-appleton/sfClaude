@@ -64,6 +64,14 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>CEO_Executive_Director</members>
+        <members>Executive_Trustee</members>
+        <members>Events_Manager</members>
+        <members>Fundraising_Officer</members>
+        <members>Volunteer_Coordinator</members>
+        <name>Role</name>
+    </types>
+    <types>
         <members>Event__c.Primary_Organizer_Required</members>
         <members>Event__c.End_After_Start</members>
         <members>Event__c.No_Revert_From_Terminal_Status</members>

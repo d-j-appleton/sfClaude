@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CEO_Executive_Director</members>
+        <members>Executive_Trustee</members>
+        <members>Events_Manager</members>
+        <members>Fundraising_Officer</members>
+        <members>Volunteer_Coordinator</members>
+        <name>Role</name>
+    </types>
+    <version>66.0</version>
+</Package>
