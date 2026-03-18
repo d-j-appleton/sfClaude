@@ -58,8 +58,8 @@
         <object>Opportunity</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <!-- Field Permissions — Event__c (non-required fields; required fields inherit access) -->
-    <!-- Read-only: system-maintained financial and roll-up fields -->
+    <!-- Field Permissions — Event__c -->
+    <!-- Required fields (End_DateTime__c, Event_Type__c, Risk_Level__c, Start_DateTime__c, Status__c) omitted; they are always accessible when object access is granted -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Actual_Attendees__c</field>
@@ -110,7 +110,8 @@
         <field>Event__c.Venue__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <!-- Field Permissions — Event_Registration__c (all read+edit) -->
+    <!-- Field Permissions — Event_Registration__c -->
+    <!-- Required fields (Contact__c, Registration_Source__c, Registration_Status__c, Ticket_Type_Record__c) omitted -->
     <fieldPermissions>
         <editable>true</editable>
         <field>Event_Registration__c.Check_In_Time__c</field>
@@ -119,11 +120,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event_Registration__c.Consent_to_Contact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event_Registration__c.Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -138,16 +134,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Event_Registration__c.Registration_Source__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event_Registration__c.Registration_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Event_Registration__c.Special_Requirements__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -156,12 +142,8 @@
         <field>Event_Registration__c.Ticket_Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event_Registration__c.Ticket_Type_Record__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <!-- Field Permissions — Event_Ticket_Type__c (all read+edit) -->
+    <!-- Field Permissions — Event_Ticket_Type__c -->
+    <!-- Required field (Ticket_Type__c) omitted -->
     <fieldPermissions>
         <editable>true</editable>
         <field>Event_Ticket_Type__c.Capacity__c</field>
@@ -180,11 +162,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event_Ticket_Type__c.Price__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event_Ticket_Type__c.Ticket_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <!-- System Permissions -->

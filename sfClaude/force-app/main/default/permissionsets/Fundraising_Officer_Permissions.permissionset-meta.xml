@@ -50,7 +50,8 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <!-- Field Permissions — Event__c -->
-    <!-- Target_Amount__c is the only editable field; required fields inherit access -->
+    <!-- Target_Amount__c is the only editable field -->
+    <!-- Required fields (End_DateTime__c, Event_Type__c, Risk_Level__c, Start_DateTime__c, Status__c) omitted -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Actual_Attendees__c</field>

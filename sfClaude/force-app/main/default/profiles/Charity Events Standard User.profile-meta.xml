@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
-    <description>Base profile for all charity events system users. Provides login access and tab navigation only. All object, field, and system permissions are granted exclusively via persona-specific permission sets.</description>
-    <tabVisibilities>
-        <tab>Event__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Event_Registration__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Venue__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Opportunity</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
+    <description>Base profile for all charity events system users. Provides login access only. All object, field, and system permissions are granted exclusively via persona-specific permission sets.</description>
     <userLicense>Salesforce</userLicense>
 </Profile>
