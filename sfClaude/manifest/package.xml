@@ -71,6 +71,7 @@
         <members>Events_Manager_Permissions</members>
         <members>Fundraising_Officer_Permissions</members>
         <members>Volunteer_Coordinator_Permissions</members>
+        <members>Executive_Trustee_Permissions</members>
         <name>PermissionSet</name>
     </types>
     <types>
