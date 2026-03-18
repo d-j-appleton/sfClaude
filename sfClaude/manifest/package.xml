@@ -64,6 +64,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Executive_Trustee_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>CEO_Executive_Director</members>
         <members>Executive_Trustee</members>
         <members>Events_Manager</members>
