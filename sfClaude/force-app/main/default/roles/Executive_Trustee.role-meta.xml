@@ -2,7 +2,6 @@
 <Role xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseAccessLevel>Edit</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
-    <description>Role for Executive and Trustee users. Reports to the CEO / Executive Director. Users in this role have governance and reporting visibility across all events and financial data. Full object and field access is controlled via the Executive / Trustee Permissions permission set.</description>
     <label>Executive / Trustee</label>
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>

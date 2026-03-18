@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Grants full create, edit, and delete access to events, registrations, ticket types, sessions, and venues for the Events Manager persona. System-maintained financial and roll-up fields on Event__c are read-only. This permission set is the sole source of all object and field access for this persona — the base profile grants no object permissions.</description>
+    <description>Grants full CRUD access to events, registrations, ticket types, sessions, and venues for the Events Manager persona. Financial and roll-up fields on Event__c are read-only. Sole source of object and field access — base profile grants none.</description>
     <label>Events Manager Permissions</label>
     <license>Salesforce</license>
     <!-- Object Permissions -->

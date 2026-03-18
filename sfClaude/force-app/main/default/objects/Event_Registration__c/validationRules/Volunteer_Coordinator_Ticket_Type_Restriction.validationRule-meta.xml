@@ -2,7 +2,7 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Volunteer_Coordinator_Ticket_Type_Restriction</fullName>
     <active>true</active>
-    <description>Prevents users on the Charity Events Standard User profile from editing Event Registration records that are not of Volunteer ticket type. This enforces the Volunteer Coordinator persona restriction: Volunteer Coordinators may only edit Volunteer-type registrations. Note: this rule uses the base profile name as a proxy for the Volunteer Coordinator persona. If a dedicated profile is introduced in future, or for a more robust long-term solution, consider replacing the profile check with a Custom Permission.</description>
+    <description>Prevents Charity Events Standard User profile users from editing non-Volunteer registrations. Enforces the Volunteer Coordinator restriction. Uses profile name as persona proxy; replace with Custom Permission if a dedicated profile is introduced.</description>
     <errorConditionFormula>$Profile.Name = "Charity Events Standard User" &amp;&amp;
 NOT(ISPICKVAL(Ticket_Type_Record__r.Ticket_Type__c, "Volunteer")) &amp;&amp;
 NOT(ISNEW())</errorConditionFormula>

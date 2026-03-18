@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Grants Executives and Trustees full read visibility across all events, registrations, and financial data for governance and reporting purposes. No create, edit, or delete access is granted on any object. View All is enabled on Event__c and Event_Registration__c to ensure complete organisational visibility regardless of record ownership. This permission set is the sole source of all object and field access for this persona — the base profile grants no object permissions.</description>
+    <description>Grants Executives and Trustees read visibility across all events, registrations, and financial data. No write access on any object. View All enabled on Event__c and Event_Registration__c for complete organisational visibility. Sole source of object and field access — base profile grants none.</description>
     <label>Executive / Trustee Permissions</label>
     <license>Salesforce</license>
     <!-- Object Permissions — read and View All only, no write access -->

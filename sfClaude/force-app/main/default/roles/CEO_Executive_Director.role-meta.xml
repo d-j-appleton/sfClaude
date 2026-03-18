@@ -2,7 +2,6 @@
 <Role xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseAccessLevel>Edit</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
-    <description>Top-level placeholder role for the CEO or Executive Director. Assign the system admin / demo admin user here. This role inherits read access to all records owned by roles beneath it in the hierarchy.</description>
     <label>CEO / Executive Director</label>
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
