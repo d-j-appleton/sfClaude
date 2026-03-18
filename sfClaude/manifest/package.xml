@@ -64,6 +64,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Volunteer_Coordinator_Permissions</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>CEO_Executive_Director</members>
         <members>Executive_Trustee</members>
         <members>Events_Manager</members>
@@ -78,6 +82,7 @@
         <members>Event__c.Target_Amount_Positive</members>
         <members>Venue__c.Capacity_At_Least_One</members>
         <members>Event_Registration__c.No_Registration_On_Cancelled_Event</members>
+        <members>Event_Registration__c.Volunteer_Coordinator_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
     <version>66.0</version>
