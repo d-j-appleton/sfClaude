@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Role for Fundraising Officer users. Reports to the Events Manager. This is a peer role to Volunteer Coordinator — neither role inherits the other's data. Fundraising Officers can manage Opportunity records and update event fundraising targets. Full object and field access is controlled via the Fundraising Officer Permissions permission set.</description>
+    <label>Fundraising Officer</label>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Events_Manager</parentRole>
+</Role>

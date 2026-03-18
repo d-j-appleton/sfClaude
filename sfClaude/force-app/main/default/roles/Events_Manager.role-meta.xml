@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Role for Events Manager users. Reports to the Executive / Trustee. Events Managers inherit read access to records owned by Fundraising Officers and Volunteer Coordinators beneath them in the hierarchy. Full object and field access is controlled via the Events Manager Permissions permission set.</description>
+    <label>Events Manager</label>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Executive_Trustee</parentRole>
+</Role>
