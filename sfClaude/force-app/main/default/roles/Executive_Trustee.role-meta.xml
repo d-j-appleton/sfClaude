@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Role xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Executive / Trustee</label>
-    <mayForecastManagerShare>false</mayForecastManagerShare>
+<mayForecastManagerShare>false</mayForecastManagerShare>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
     <parentRole>CEO_Executive_Director</parentRole>
 </Role>

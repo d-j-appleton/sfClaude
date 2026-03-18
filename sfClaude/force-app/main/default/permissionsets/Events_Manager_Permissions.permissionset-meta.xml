@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Grants full CRUD access to events, registrations, ticket types, sessions, and venues for the Events Manager persona. Financial and roll-up fields on Event__c are read-only. Sole source of object and field access — base profile grants none.</description>
+    <description>Grants full CRUD access to events, registrations, ticket types, sessions, and venues for the Events Manager persona. Financial and roll-up fields on Event__c are read-only. Sole source of object and field access; base profile grants none.</description>
     <label>Events Manager Permissions</label>
     <license>Salesforce</license>
     <!-- Object Permissions -->
@@ -58,7 +58,8 @@
         <object>Opportunity</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <!-- Field Permissions — Event__c (all read+edit except system-maintained fields) -->
+    <!-- Field Permissions — Event__c (non-required fields; required fields inherit access) -->
+    <!-- Read-only: system-maintained financial and roll-up fields -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Actual_Attendees__c</field>
@@ -67,16 +68,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event__c.End_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event__c.Event_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -102,16 +93,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event__c.Sponsored_By__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event__c.Start_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Event__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

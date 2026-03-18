@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Grants Volunteer Coordinators Read/Create/Edit on Volunteer-type registrations only. Read-only on events, ticket types, and venues. Ticket_Price__c is read-only. Volunteer_Ticket_Type_Restriction rule enforces limit. Sole source of access; base profile grants none.</description>
+    <description>Grants Volunteer Coordinators Read/Create/Edit on Volunteer-type registrations only. Events, ticket types, venues are read-only. Ticket_Price__c is read-only. Volunteer_Ticket_Type_Restriction enforces the limit. Sole source of access.</description>
     <label>Volunteer Coordinator Permissions</label>
     <license>Salesforce</license>
     <!-- Object Permissions -->

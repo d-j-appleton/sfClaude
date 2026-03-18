@@ -50,7 +50,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <!-- Field Permissions — Event__c -->
-    <!-- Target_Amount__c is the only editable field; all others are read-only -->
+    <!-- Target_Amount__c is the only editable field; required fields inherit access -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Actual_Attendees__c</field>
@@ -59,16 +59,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.End_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Event_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -93,22 +83,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event__c.Risk_Level__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event__c.Sponsored_By__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Start_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -126,7 +101,7 @@
         <field>Event__c.Venue__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <!-- Field Permissions — Opportunity (all standard + custom event fields read+edit) -->
+    <!-- Field Permissions — Opportunity (custom event fields read+edit) -->
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Donation_Type__c</field>

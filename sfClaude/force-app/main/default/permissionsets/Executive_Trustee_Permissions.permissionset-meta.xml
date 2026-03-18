@@ -49,7 +49,7 @@
         <object>Opportunity</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <!-- Field Permissions — Event__c: all fields readable, none editable -->
+    <!-- Field Permissions — Event__c: non-required fields readable, none editable -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Actual_Attendees__c</field>
@@ -58,16 +58,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.End_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Event_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -92,22 +82,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event__c.Risk_Level__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event__c.Sponsored_By__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Start_DateTime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Event__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -125,7 +100,7 @@
         <field>Event__c.Venue__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <!-- Field Permissions — Event_Registration__c: all fields readable, none editable -->
+    <!-- Field Permissions — Event_Registration__c: readable, none editable -->
     <fieldPermissions>
         <editable>false</editable>
         <field>Event_Registration__c.Check_In_Time__c</field>
