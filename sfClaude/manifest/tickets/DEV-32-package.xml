@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-32: Build Event__c Record Page
+    Deploys the Event Record Page Lightning page (FlexiPage).
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-32-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>66.0</version>
+</Package>

@@ -121,5 +121,9 @@
         <members>NewVenue</members>
         <name>QuickAction</name>
     </types>
+    <types>        
+        <members>Event_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
     <version>66.0</version>
 </Package>
