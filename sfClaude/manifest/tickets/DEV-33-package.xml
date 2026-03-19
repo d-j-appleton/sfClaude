@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-33: Build Event_Registration__c and Venue__c Record Pages
+    Deploys Registration_Record_Page and Venue_Record_Page FlexiPages.
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-33-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Registration_Record_Page</members>
+        <members>Venue_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>66.0</version>
+</Package>

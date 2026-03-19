@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>showActionsInHeader</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>forceChatter:highlightsPanelDynamic</componentName>
+                <identifier>highlightspanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>AppDefault</mode>
+        <name>header</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>forceDetail:detail</componentName>
+                <identifier>record_detail</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentName>forceChatter:activity</componentName>
+                <identifier>activity_timeline</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>relatedList</name>
+                    <value>ActivityHistories</value>
+                </componentInstanceProperties>
+                <componentName>forceDetail:relatedListSingle</componentName>
+                <identifier>field_history</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>AppDefault</mode>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Registration Record Page</masterLabel>
+    <pageTemplate>force_recordLayout:RecordLayoutTemplate</pageTemplate>
+    <sobjectType>Event_Registration__c</sobjectType>
+    <type>RecordPage</type>
+</FlexiPage>
