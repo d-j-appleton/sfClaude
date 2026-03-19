@@ -32,9 +32,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_details</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Details</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -48,9 +48,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_registrations</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Registrations</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -64,9 +64,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_ticket_types</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Ticket Types</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -80,9 +80,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_donations</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Donations</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -96,9 +96,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_sessions</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Sessions</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -112,9 +112,9 @@
             </componentInstance>
         </itemInstances>
         <name>tab_insights</name>
-        <parentRegionName>main</parentRegionName>
         <type>Tab</type>
         <label>Insights</label>
+        <parentRegionName>main</parentRegionName>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -158,8 +158,5 @@
     </flexiPageRegions>
     <masterLabel>Event Record Page</masterLabel>
     <sobjectType>Event__c</sobjectType>
-    <template>
-        <name>force_recordLayout:RecordLayoutSidebarTemplate</name>
-    </template>
     <type>RecordPage</type>
 </FlexiPage>

@@ -116,7 +116,6 @@
     </types>
     <types>        
         <members>Event__c.New_Event</members>
-        <members>Event__c.Submit_For_Approval</members>
         <members>Event__c.New_Registration</members>
         <members>NewEvent</members>
         <members>NewVenue</members>

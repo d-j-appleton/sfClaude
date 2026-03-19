@@ -40,8 +40,4 @@
     </quickActionLayout>
     <targetObject>Event__c</targetObject>
     <type>Create</type>
-    <predefinedFields>
-        <name>Status__c</name>
-        <value>Draft</value>
-    </predefinedFields>
 </QuickAction>

@@ -30,8 +30,4 @@
     </quickActionLayout>
     <targetObject>Event_Registration__c</targetObject>
     <type>Create</type>
-    <predefinedFields>
-        <name>Event__c</name>
-        <value>{!Id}</value>
-    </predefinedFields>
 </QuickAction>
