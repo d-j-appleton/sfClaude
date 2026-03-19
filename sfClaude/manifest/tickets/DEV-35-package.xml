@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-35: Create Event__c List Views
+    Deploys four Event__c list views: All Events, My Events,
+    Upcoming Published Events, and Pending Approval.
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-35-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event__c.All_Events</members>
+        <members>Event__c.My_Events</members>
+        <members>Event__c.Upcoming_Published_Events</members>
+        <members>Event__c.Pending_Approval</members>
+        <name>ListView</name>
+    </types>
+    <version>66.0</version>
+</Package>

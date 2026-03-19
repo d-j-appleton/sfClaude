@@ -106,5 +106,12 @@
         <members>Event_Registration__c.Volunteer_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
+    <types>
+        <members>Event__c.All_Events</members>
+        <members>Event__c.My_Events</members>
+        <members>Event__c.Upcoming_Published_Events</members>
+        <members>Event__c.Pending_Approval</members>
+        <name>ListView</name>
+    </types>
     <version>66.0</version>
 </Package>
