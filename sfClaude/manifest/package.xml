@@ -96,5 +96,13 @@
         <members>Event_Registration__c.Volunteer_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
+    <types>
+        <members>Event__c.New_Event</members>
+        <members>Event__c.Submit_For_Approval</members>
+        <members>Event__c.New_Registration</members>
+        <members>NewEvent</members>
+        <members>NewVenue</members>
+        <name>QuickAction</name>
+    </types>
     <version>66.0</version>
 </Package>
