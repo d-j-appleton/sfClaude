@@ -15,20 +15,4 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>
-        <utilityBarItems>
-            <name>standard__history</name>
-            <label>History</label>
-            <openByDefault>false</openByDefault>
-            <panelHeight>480</panelHeight>
-            <panelWidth>340</panelWidth>
-        </utilityBarItems>
-        <utilityBarItems>
-            <name>standard__notes</name>
-            <label>Notes</label>
-            <openByDefault>false</openByDefault>
-            <panelHeight>480</panelHeight>
-            <panelWidth>340</panelWidth>
-        </utilityBarItems>
-    </utilityBar>
 </CustomApplication>
