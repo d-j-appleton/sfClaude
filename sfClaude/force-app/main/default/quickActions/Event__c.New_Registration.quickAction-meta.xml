@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionType>Create</actionType>
+    <description>Register an attendee for this event. The Event field is pre-filled from the current record. Ticket Price is excluded as it is calculated automatically.</description>
+    <label>New Registration</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <predefinedFields>
+        <name>Event__c</name>
+        <value>{!Id}</value>
+    </predefinedFields>
+    <quickActionLayout>
+        <layoutSectionStyle>OneColumn</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Contact__c</field>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Ticket_Type_Record__c</field>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Registration_Source__c</field>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Special_Requirements__c</field>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Consent_to_Contact__c</field>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <targetObject>Event_Registration__c</targetObject>
+</QuickAction>

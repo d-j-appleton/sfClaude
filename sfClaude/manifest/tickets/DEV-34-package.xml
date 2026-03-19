@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-34: Create Quick Actions (New Event, Submit for Approval, New Registration)
+    Deploys object and global quick actions for Event__c and Venue__c.
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-34-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Event__c.New_Event</members>
+        <members>Event__c.Submit_For_Approval</members>
+        <members>Event__c.New_Registration</members>
+        <members>NewEvent</members>
+        <members>NewVenue</members>
+        <name>QuickAction</name>
+    </types>
+    <version>66.0</version>
+</Package>
