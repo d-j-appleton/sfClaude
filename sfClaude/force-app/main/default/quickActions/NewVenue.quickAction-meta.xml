@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionType>Create</actionType>
     <description>Global action to create a new venue from anywhere in the app.</description>
     <label>New Venue</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
@@ -36,4 +35,5 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <targetObject>Venue__c</targetObject>
+    <actionType>Create</actionType>
 </QuickAction>

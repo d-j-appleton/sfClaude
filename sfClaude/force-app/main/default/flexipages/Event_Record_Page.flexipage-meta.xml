@@ -11,7 +11,6 @@
                 <identifier>highlightspanel</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -22,7 +21,6 @@
                 <identifier>tabset_main</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -34,7 +32,6 @@
             </componentInstance>
         </itemInstances>
         <label>Details</label>
-        <mode>AppDefault</mode>
         <name>tab_details</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -51,7 +48,6 @@
             </componentInstance>
         </itemInstances>
         <label>Registrations</label>
-        <mode>AppDefault</mode>
         <name>tab_registrations</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -68,7 +64,6 @@
             </componentInstance>
         </itemInstances>
         <label>Ticket Types</label>
-        <mode>AppDefault</mode>
         <name>tab_ticket_types</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -85,7 +80,6 @@
             </componentInstance>
         </itemInstances>
         <label>Donations</label>
-        <mode>AppDefault</mode>
         <name>tab_donations</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -102,7 +96,6 @@
             </componentInstance>
         </itemInstances>
         <label>Sessions</label>
-        <mode>AppDefault</mode>
         <name>tab_sessions</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -119,7 +112,6 @@
             </componentInstance>
         </itemInstances>
         <label>Insights</label>
-        <mode>AppDefault</mode>
         <name>tab_insights</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
@@ -134,6 +126,8 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>event_metrics_placeholder</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>text</name>
@@ -142,10 +136,14 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>quick_registration_placeholder</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentName>forceChatter:activity</componentName>
                 <identifier>activity_timeline</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>relatedList</name>
@@ -155,7 +153,6 @@
                 <identifier>field_history</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>

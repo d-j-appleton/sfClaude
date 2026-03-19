@@ -10,6 +10,8 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>events_calendar_placeholder</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>objectApiName</name>
@@ -23,7 +25,6 @@
                 <identifier>my_upcoming_events</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>left</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -37,6 +38,8 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>kpi_events_this_quarter</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>text</name>
@@ -45,6 +48,8 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>kpi_expected_attendees</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>text</name>
@@ -53,12 +58,13 @@
                 <componentName>flexipage:richText</componentName>
                 <identifier>kpi_donations_this_year</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentName>forceChatter:globalPublisher</componentName>
                 <identifier>global_actions_panel</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>right</name>
         <type>Region</type>
     </flexiPageRegions>

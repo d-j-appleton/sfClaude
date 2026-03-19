@@ -16,6 +16,6 @@
     <filterScope>Everything</filterScope>
     <label>My Events</label>
     <sharedTo>
-        <allUsers>true</allUsers>
+        <allInternalUsers>true</allInternalUsers>
     </sharedTo>
 </ListView>

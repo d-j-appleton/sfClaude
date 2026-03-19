@@ -21,6 +21,6 @@
     <filterScope>Everything</filterScope>
     <label>Upcoming Published Events</label>
     <sharedTo>
-        <allUsers>true</allUsers>
+        <allInternalUsers>true</allInternalUsers>
     </sharedTo>
 </ListView>

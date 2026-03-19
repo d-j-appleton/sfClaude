@@ -11,7 +11,6 @@
                 <identifier>highlightspanel</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -21,10 +20,14 @@
                 <componentName>forceDetail:detail</componentName>
                 <identifier>record_detail</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentName>forceChatter:activity</componentName>
                 <identifier>activity_timeline</identifier>
             </componentInstance>
+        </itemInstances>
+        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>relatedList</name>
@@ -34,7 +37,6 @@
                 <identifier>field_history</identifier>
             </componentInstance>
         </itemInstances>
-        <mode>AppDefault</mode>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>

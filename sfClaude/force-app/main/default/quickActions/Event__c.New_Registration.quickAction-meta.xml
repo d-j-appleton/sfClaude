@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionType>Create</actionType>
     <description>Register an attendee for this event. The Event field is pre-filled from the current record. Ticket Price is excluded as it is calculated automatically.</description>
     <label>New Registration</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
@@ -34,4 +33,5 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <targetObject>Event_Registration__c</targetObject>
+    <actionType>Create</actionType>
 </QuickAction>

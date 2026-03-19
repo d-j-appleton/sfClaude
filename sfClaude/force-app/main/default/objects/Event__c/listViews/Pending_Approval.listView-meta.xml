@@ -14,6 +14,6 @@
     <filterScope>Everything</filterScope>
     <label>Pending Approval</label>
     <sharedTo>
-        <allUsers>true</allUsers>
+        <allInternalUsers>true</allInternalUsers>
     </sharedTo>
 </ListView>
