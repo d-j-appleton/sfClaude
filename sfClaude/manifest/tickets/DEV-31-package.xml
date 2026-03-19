@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-31: Build Home Page Lightning Page
+    Deploys the Charity Events Home App Page (FlexiPage).
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-31-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Charity_Events_Home</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>66.0</version>
+</Package>
