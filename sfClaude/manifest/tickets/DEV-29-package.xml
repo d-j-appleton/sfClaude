@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    DEV-29: Configure Charity Events Lightning App
+    This package deploys the Charity Events Lightning App, custom object tabs,
+    and associated profile visibility settings.
+
+    Deploy with: sf project deploy start --manifest manifest/tickets/DEV-29-package.xml
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Charity_Events</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Event__c</members>
+        <members>Event_Registration__c</members>
+        <members>Venue__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Charity Events Standard User</members>
+        <name>Profile</name>
+    </types>
+    <version>66.0</version>
+</Package>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>View and manage charity fundraising events including planning, logistics, and financial tracking.</description>
+    <motif>Custom62: Calendar</motif>
+</CustomTab>

@@ -7,6 +7,16 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>Charity_Events</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Event__c</members>
+        <members>Event_Registration__c</members>
+        <members>Venue__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>Venue__c.Street__c</members>
         <members>Venue__c.City__c</members>
         <members>Venue__c.State__c</members>

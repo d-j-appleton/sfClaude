@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>View and manage attendee registrations for charity events including ticket types, registration status, and special requirements.</description>
+    <motif>Custom77: Checklist</motif>
+</CustomTab>
