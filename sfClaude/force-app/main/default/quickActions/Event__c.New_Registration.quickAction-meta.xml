@@ -29,5 +29,6 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <targetObject>Event_Registration__c</targetObject>
+    <targetParentField>Event__c</targetParentField>
     <type>Create</type>
 </QuickAction>

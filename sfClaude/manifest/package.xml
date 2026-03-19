@@ -115,7 +115,6 @@
         <name>ListView</name>
     </types>
     <types>        
-        <members>Event__c.New_Event</members>
         <members>Event__c.New_Registration</members>
         <members>NewEvent</members>
         <members>NewVenue</members>

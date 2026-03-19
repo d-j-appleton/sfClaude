@@ -17,26 +17,10 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>flexipage:tabset</componentName>
-                <identifier>tabset_main</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>main</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
                 <componentName>forceDetail:detail</componentName>
                 <identifier>record_detail</identifier>
             </componentInstance>
         </itemInstances>
-        <name>tab_details</name>
-        <type>Tab</type>
-        <label>Details</label>
-        <parentRegionName>main</parentRegionName>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -47,12 +31,6 @@
                 <identifier>related_registrations</identifier>
             </componentInstance>
         </itemInstances>
-        <name>tab_registrations</name>
-        <type>Tab</type>
-        <label>Registrations</label>
-        <parentRegionName>main</parentRegionName>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -63,12 +41,6 @@
                 <identifier>related_ticket_types</identifier>
             </componentInstance>
         </itemInstances>
-        <name>tab_ticket_types</name>
-        <type>Tab</type>
-        <label>Ticket Types</label>
-        <parentRegionName>main</parentRegionName>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -79,12 +51,6 @@
                 <identifier>related_donations</identifier>
             </componentInstance>
         </itemInstances>
-        <name>tab_donations</name>
-        <type>Tab</type>
-        <label>Donations</label>
-        <parentRegionName>main</parentRegionName>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -95,26 +61,8 @@
                 <identifier>related_sessions</identifier>
             </componentInstance>
         </itemInstances>
-        <name>tab_sessions</name>
-        <type>Tab</type>
-        <label>Sessions</label>
-        <parentRegionName>main</parentRegionName>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>text</name>
-                    <value>&lt;p&gt;Insights — Report chart to be configured in Epic 5.&lt;/p&gt;</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:richText</componentName>
-                <identifier>insights_placeholder</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>tab_insights</name>
-        <type>Tab</type>
-        <label>Insights</label>
-        <parentRegionName>main</parentRegionName>
+        <name>main</name>
+        <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -158,5 +106,8 @@
     </flexiPageRegions>
     <masterLabel>Event Record Page</masterLabel>
     <sobjectType>Event__c</sobjectType>
+    <template>
+        <name>force_recordLayout__RecordLayoutSidebarTemplate</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>
