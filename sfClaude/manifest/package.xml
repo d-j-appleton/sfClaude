@@ -74,6 +74,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Admin</members>
         <members>Charity Events Standard User</members>
         <name>Profile</name>
     </types>
