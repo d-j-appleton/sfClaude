@@ -4,5 +4,4 @@
     <label>Submit for Approval</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <targetObject>Event__c</targetObject>
-    <actionType>SubmitForApproval</actionType>
 </QuickAction>

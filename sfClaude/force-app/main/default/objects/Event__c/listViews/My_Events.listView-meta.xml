@@ -8,12 +8,7 @@
     <columns>Venue__c</columns>
     <columns>Registered_Count__c</columns>
     <columns>Total_Donations__c</columns>
-    <filters>
-        <field>Primary_Organizer__c</field>
-        <operation>equals</operation>
-        <value>$User.Id</value>
-    </filters>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <label>My Events</label>
     <sharedTo>
         <allInternalUsers>true</allInternalUsers>

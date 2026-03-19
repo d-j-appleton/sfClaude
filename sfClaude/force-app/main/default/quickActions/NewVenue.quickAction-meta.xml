@@ -35,5 +35,4 @@
         </quickActionLayoutColumns>
     </quickActionLayout>
     <targetObject>Venue__c</targetObject>
-    <actionType>Create</actionType>
 </QuickAction>

@@ -3,10 +3,6 @@
     <description>Global action to create a new charity event from anywhere in the app. Status is pre-set to Draft.</description>
     <label>New Event</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
-    <predefinedFields>
-        <name>Status__c</name>
-        <value>Draft</value>
-    </predefinedFields>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsTopToBottom</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -42,6 +38,9 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
+    <predefinedFields>
+        <name>Status__c</name>
+        <value>Draft</value>
+    </predefinedFields>
     <targetObject>Event__c</targetObject>
-    <actionType>Create</actionType>
 </QuickAction>

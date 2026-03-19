@@ -69,6 +69,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Charity Events Home</masterLabel>
-    <pageTemplate>flexipage:TwoColumn</pageTemplate>
+    <template>flexipage:TwoColumn</template>
     <type>AppPage</type>
 </FlexiPage>

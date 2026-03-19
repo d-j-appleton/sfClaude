@@ -3,10 +3,6 @@
     <description>Register an attendee for this event. The Event field is pre-filled from the current record. Ticket Price is excluded as it is calculated automatically.</description>
     <label>New Registration</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
-    <predefinedFields>
-        <name>Event__c</name>
-        <value>{!Id}</value>
-    </predefinedFields>
     <quickActionLayout>
         <layoutSectionStyle>OneColumn</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -32,6 +28,9 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
+    <predefinedFields>
+        <name>Event__c</name>
+        <value>{!Id}</value>
+    </predefinedFields>
     <targetObject>Event_Registration__c</targetObject>
-    <actionType>Create</actionType>
 </QuickAction>

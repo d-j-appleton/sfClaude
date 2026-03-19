@@ -3,10 +3,6 @@
     <description>Create a new charity event. Status is pre-set to Draft so the event can be reviewed and published when ready.</description>
     <label>New Event</label>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>
-    <predefinedFields>
-        <name>Status__c</name>
-        <value>Draft</value>
-    </predefinedFields>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsTopToBottom</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -50,6 +46,9 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
+    <predefinedFields>
+        <name>Status__c</name>
+        <value>Draft</value>
+    </predefinedFields>
     <targetObject>Event__c</targetObject>
-    <actionType>Create</actionType>
 </QuickAction>

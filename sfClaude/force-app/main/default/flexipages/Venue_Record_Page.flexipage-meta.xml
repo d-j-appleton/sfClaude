@@ -39,7 +39,7 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Venue Record Page</masterLabel>
-    <pageTemplate>force_recordLayout:RecordLayoutSidebarTemplate</pageTemplate>
     <sobjectType>Venue__c</sobjectType>
+    <template>force_recordLayout:RecordLayoutSidebarTemplate</template>
     <type>RecordPage</type>
 </FlexiPage>
