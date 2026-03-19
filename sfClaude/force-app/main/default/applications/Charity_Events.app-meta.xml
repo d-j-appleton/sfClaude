@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Custom app for managing charity fundraising events. Provides a unified navigation experience for Events Managers, Fundraising Officers, Volunteer Coordinators, and Executive Trustees.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Charity Events</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Event__c</tabs>
+    <tabs>Event_Registration__c</tabs>
+    <tabs>Venue__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

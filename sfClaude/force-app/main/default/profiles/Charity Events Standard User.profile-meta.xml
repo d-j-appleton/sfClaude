@@ -3,4 +3,21 @@
     <custom>true</custom>
     <description>Base profile for all charity events system users. Provides login access only. All object, field, and system permissions are granted exclusively via persona-specific permission sets.</description>
     <userLicense>Salesforce</userLicense>
+    <applicationVisibilities>
+        <application>Charity_Events</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <tabVisibilities>
+        <tab>Event__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Event_Registration__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Venue__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
 </Profile>
