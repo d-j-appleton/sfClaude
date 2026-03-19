@@ -120,12 +120,5 @@
         <members>NewVenue</members>
         <name>QuickAction</name>
     </types>
-    <types>        
-        <members>Event_Record_Page</members>
-        <members>Registration_Record_Page</members>
-        <members>Venue_Record_Page</members>
-        <members>Charity_Events_Home</members>
-        <name>FlexiPage</name>
-    </types>
-    <version>66.0</version>
+<version>66.0</version>
 </Package>
