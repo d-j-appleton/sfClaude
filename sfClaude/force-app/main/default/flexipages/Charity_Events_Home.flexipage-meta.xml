@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>text</name>
+                    <value>&lt;p&gt;&lt;strong&gt;Events Calendar&lt;/strong&gt; — LWC component to be deployed in Epic 7.&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>events_calendar_placeholder</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>objectApiName</name>
+                    <value>Event__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>listViewApiName</name>
+                    <value>My_Events</value>
+                </componentInstanceProperties>
+                <componentName>force:listView</componentName>
+                <identifier>my_upcoming_events</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>AppDefault</mode>
+        <name>left</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>text</name>
+                    <value>&lt;p&gt;&lt;strong&gt;Events This Quarter&lt;/strong&gt; — Report chart to be configured in Epic 5.&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>kpi_events_this_quarter</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>text</name>
+                    <value>&lt;p&gt;&lt;strong&gt;Expected Attendees&lt;/strong&gt; — Report chart to be configured in Epic 5.&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>kpi_expected_attendees</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>text</name>
+                    <value>&lt;p&gt;&lt;strong&gt;Donations This Year&lt;/strong&gt; — Report chart to be configured in Epic 5.&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>kpi_donations_this_year</identifier>
+            </componentInstance>
+            <componentInstance>
+                <componentName>forceChatter:globalPublisher</componentName>
+                <identifier>global_actions_panel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>AppDefault</mode>
+        <name>right</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Charity Events Home</masterLabel>
+    <pageTemplate>flexipage:TwoColumn</pageTemplate>
+    <type>AppPage</type>
+</FlexiPage>

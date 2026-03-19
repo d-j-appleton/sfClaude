@@ -96,5 +96,9 @@
         <members>Event_Registration__c.Volunteer_Ticket_Type_Restriction</members>
         <name>ValidationRule</name>
     </types>
+    <types>
+        <members>Charity_Events_Home</members>
+        <name>FlexiPage</name>
+    </types>
     <version>66.0</version>
 </Package>
