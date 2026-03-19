@@ -38,9 +38,10 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
+    <targetObject>Event__c</targetObject>
+    <type>Create</type>
     <predefinedFields>
         <name>Status__c</name>
         <value>Draft</value>
     </predefinedFields>
-    <targetObject>Event__c</targetObject>
 </QuickAction>

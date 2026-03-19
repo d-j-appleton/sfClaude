@@ -42,6 +42,8 @@
     </flexiPageRegions>
     <masterLabel>Registration Record Page</masterLabel>
     <sobjectType>Event_Registration__c</sobjectType>
-    <template>force_recordLayout:RecordLayoutTemplate</template>
+    <template>
+        <name>force_recordLayout:RecordLayoutTemplate</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>

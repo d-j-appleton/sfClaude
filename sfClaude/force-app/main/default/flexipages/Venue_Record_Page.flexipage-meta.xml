@@ -40,6 +40,8 @@
     </flexiPageRegions>
     <masterLabel>Venue Record Page</masterLabel>
     <sobjectType>Venue__c</sobjectType>
-    <template>force_recordLayout:RecordLayoutSidebarTemplate</template>
+    <template>
+        <name>force_recordLayout:RecordLayoutSidebarTemplate</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>

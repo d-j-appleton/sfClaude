@@ -25,7 +25,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Details</label>
         <itemInstances>
             <componentInstance>
                 <componentName>forceDetail:detail</componentName>
@@ -35,9 +34,9 @@
         <name>tab_details</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Details</label>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Registrations</label>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -51,9 +50,9 @@
         <name>tab_registrations</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Registrations</label>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Ticket Types</label>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -67,9 +66,9 @@
         <name>tab_ticket_types</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Ticket Types</label>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Donations</label>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -83,9 +82,9 @@
         <name>tab_donations</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Donations</label>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Sessions</label>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -99,9 +98,9 @@
         <name>tab_sessions</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Sessions</label>
     </flexiPageRegions>
     <flexiPageRegions>
-        <label>Insights</label>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -115,6 +114,7 @@
         <name>tab_insights</name>
         <parentRegionName>main</parentRegionName>
         <type>Tab</type>
+        <label>Insights</label>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
@@ -158,6 +158,8 @@
     </flexiPageRegions>
     <masterLabel>Event Record Page</masterLabel>
     <sobjectType>Event__c</sobjectType>
-    <template>force_recordLayout:RecordLayoutSidebarTemplate</template>
+    <template>
+        <name>force_recordLayout:RecordLayoutSidebarTemplate</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>
